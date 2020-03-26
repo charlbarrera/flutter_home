@@ -9,7 +9,7 @@ class ListCards extends StatelessWidget {
     return Container(
       height: 300.0,
       child: ListView(
-        padding: EdgeInsets.all(18.0),
+        padding: EdgeInsets.all(26.0),
         scrollDirection: Axis.horizontal,
         children: <Widget>[
           CardImage('assets/images/architecture.jpg'),
